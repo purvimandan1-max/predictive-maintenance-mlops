@@ -1,7 +1,6 @@
 
+gradio==4.36.1
+huggingface_hub==0.23.4
 pandas
-numpy
 scikit-learn
-xgboost
-huggingface_hub
-gradio
+joblib
