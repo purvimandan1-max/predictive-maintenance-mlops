@@ -15,7 +15,7 @@ create_repo(
 )
 
 api.upload_folder(
-    folder_path="predictive_maintenance_project",
+    folder_path=".",
     repo_id=repo_id,
     repo_type="space"
 )
