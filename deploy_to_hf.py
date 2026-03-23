@@ -17,7 +17,8 @@ create_repo(
 api.upload_folder(
     folder_path=".",
     repo_id=repo_id,
-    repo_type="space"
+    repo_type="space",
+    ignore_patterns=["*.gdoc", "*.pdf", "*.ipynb"]
 )
 
 print("Deployment successful!")
